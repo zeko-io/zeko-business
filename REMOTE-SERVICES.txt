@@ -1,0 +1,20 @@
+REMOTE SERVICES — Zeko Business Directory
+=========================================
+
+-------------------------------------------------------------------------------
+1. Nominatim (OpenStreetMap) geocoding (server-side)
+-------------------------------------------------------------------------------
+Endpoint : GET https://nominatim.openstreetmap.org/search
+Query    : q=<location string>, format=json, limit=1
+Header   : User-Agent: ZekoBusiness/1.0
+Code     : Core/Geocode.php lines 42-51.
+Data sent: a free-text business/employer location string ("City", "City,
+           Region", or "City, Country") supplied when a listing is saved.
+Retention: the resolved [lat,lng] pair is cached in a transient for 30 days
+           (transient prefix zbe_geo_). Nominatim retains only its standard
+           request logs (osm.org usage policy; the 1-request-per-second policy
+           is respected via caching).
+Opt-out  : no location fields are geocoded if the site never saves a location;
+           results are cached so identical locations are not re-requested.
+
+No other outbound HTTP requests are made by Zeko Business Directory.

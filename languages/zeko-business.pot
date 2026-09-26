@@ -1,0 +1,2989 @@
+# Copyright (C) 2026 Zeko Team
+# This file is distributed under the GNU General Public License v2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: zeko-business 1.0.0\n"
+"Report-Msgid-Bugs-To: https://zeko.io\n"
+"POT-Creation-Date: 2026-09-25 08:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Zeko Team\n"
+"X-Domain: zeko-business\n"
+"X-Generator: zeko make-pot\n"
+
+#. translators: 1: business name, 2: old plan, 3: new plan
+#: Integration/class-hooks.php:126
+#, php-format
+msgid "\"%1$s\" has been upgraded from %2$s to %3$s."
+msgstr ""
+
+#. translators: 1: business name, 2: expiry date
+#: Domain/class-businessservice.php:920
+#, php-format
+msgid ""
+"\"%1$s\" will lose its featured status on %2$s. Renew now to keep your "
+"premium placement."
+msgstr ""
+
+#. translators: 1: business name, 2: expiry date
+#: Domain/class-businessservice.php:939
+#, php-format
+msgid ""
+"\"%1$s\" will lose its sponsored status on %2$s. Renew now to keep your top "
+"placement."
+msgstr ""
+
+#. translators: counts
+#: Admin/Pages/class-demodatapage.php:90
+#, php-format
+msgid ""
+"%1$d businesses · %2$d services · %3$d reviews · %4$d followers · %5$d media."
+msgstr ""
+
+#. translators: 1: user name. 2: business name. 3: team role
+#: Domain/class-teamservice.php:261
+#, php-format
+msgid "%1$s accepted your invitation and joined \"%2$s\" as %3$s."
+msgstr ""
+
+#. translators: 1: inviter name, 2: business name
+#: Domain/class-teamservice.php:159
+#, php-format
+msgid "%1$s invited you to join %2$s"
+msgstr ""
+
+#. translators: 1: name of the follower. 2: business name
+#: Domain/class-businessservice.php:567
+#, php-format
+msgid "%1$s is now following \"%2$s\"."
+msgstr ""
+
+#. translators: 1: reviewer name. 2: star rating. 3: business name
+#: Domain/class-reviewservice.php:312
+#, php-format
+msgid "%1$s left a %2$d-star review on “%3$s”."
+msgstr ""
+
+#. translators: 1: inviter name, 2: business name, 3: role, 4: accept URL, 5: expiry date
+#: Domain/class-teamservice.php:340
+#, php-format
+msgid ""
+"%1$s still wants you to join %2$s as a %3$s.\n"
+"\n"
+"Click here to accept:\n"
+"%4$s\n"
+"\n"
+"This invitation expires on %5$s."
+msgstr ""
+
+#. translators: 1: number of views. 2: number of reviews. 3: number of followers
+#: Integration/class-ecosystem.php:158
+#, php-format
+msgid "%1$s views 7d · %2$s reviews · %3$s followers"
+msgstr ""
+
+#. translators: %d: number of pending claims
+#: Admin/Pages/class-dashboardpage.php:73
+#, php-format
+msgid "%d claim"
+msgid_plural "%d claims"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of pending reviews
+#: Admin/Pages/class-dashboardpage.php:99
+#, php-format
+msgid "%d review"
+msgid_plural "%d reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of pending verification requests
+#: Admin/Pages/class-dashboardpage.php:86
+#, php-format
+msgid "%d verification request"
+msgid_plural "%d verification requests"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: percentage of reviews
+#: Frontend/Templates/single.php:568
+#, php-format
+msgid "%d%% of reviews"
+msgstr ""
+
+#. translators: %s: human readable time difference
+#: Integration/class-ecosystem.php:303
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#. translators: %s: invited user display name
+#: Frontend/class-ajaxhandler.php:1869
+#, php-format
+msgid "%s has been added to the team!"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1208
+msgid "+ Add Action Button"
+msgstr ""
+
+#. translators: %1$s: business name, %2$s: question title
+#: Domain/class-digestservice.php:176
+#, php-format
+msgid "- %1$s: \"%2$s\""
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3145
+msgid "-1 for unlimited stock."
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:79
+msgid "/hr"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:576 Frontend/class-ajaxhandler.php:692
+msgid "1 hour"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:577 Frontend/class-ajaxhandler.php:693
+msgid "2 hours"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:98
+msgid "3+ stars"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:575 Frontend/class-ajaxhandler.php:691
+msgid "30 minutes"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:97
+msgid "4+ stars"
+msgstr ""
+
+#: Domain/class-reviewservice.php:305 Integration/class-ecosystem.php:179
+msgid "A customer"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:260
+msgid "A short memorable phrase"
+msgstr ""
+
+#: Domain/class-teamservice.php:155 Domain/class-teamservice.php:331
+msgid "A team member"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1177
+msgid "Action Buttons"
+msgstr ""
+
+#: Admin/Pages/class-claimspage.php:65
+#: Admin/Pages/class-verificationspage.php:64
+#: Frontend/class-ajaxhandler.php:785 Frontend/class-ajaxhandler.php:814
+msgid "Actions"
+msgstr ""
+
+#: Admin/class-admincontroller.php:323
+msgid "Activate"
+msgstr ""
+
+#: Admin/class-adminbusinessespage.php:37
+#: Admin/Pages/class-dashboardpage.php:48 Frontend/class-ajaxhandler.php:534
+#: Frontend/class-ajaxhandler.php:793 Frontend/class-ajaxhandler.php:3003
+#: Frontend/class-ajaxhandler.php:3159 Frontend/class-publiccontroller.php:382
+#: Frontend/class-shortcodes.php:61
+msgid "Active"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:568 Frontend/class-ajaxhandler.php:682
+#: Frontend/class-ajaxhandler.php:3132
+msgid "Add"
+msgstr ""
+
+#: Admin/Pages/class-settingspage.php:248
+msgid "Add Criterion"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3089
+msgid "Add Images"
+msgstr ""
+
+#: zeko-business.php:383
+msgid "Add New"
+msgstr ""
+
+#: zeko-business.php:384
+msgid "Add New Business"
+msgstr ""
+
+#: zeko-business.php:443
+msgid "Add New Category"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3029
+msgid "Add New Product"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:624
+msgid "Add New Service"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:903 Frontend/class-shortcodes.php:374
+#: Frontend/Templates/single.php:622
+msgid "Add Photos"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3173
+msgid "Add Product"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:717
+msgid "Add Service"
+msgstr ""
+
+#: Integration/class-ecosystem.php:236 zeko-business.php:534
+msgid "Add Your Business"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:854
+msgid "Add to Team"
+msgstr ""
+
+#: Domain/class-teamservice.php:98
+msgid "Added to a business team"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1143 Frontend/Templates/single.php:265
+msgid "Address"
+msgstr ""
+
+#: Admin/Pages/class-claimspage.php:52 Frontend/class-shortcodes.php:60
+msgid "All"
+msgstr ""
+
+#: zeko-business.php:382
+msgid "All Businesses"
+msgstr ""
+
+#: zeko-business.php:439
+msgid "All Categories"
+msgstr ""
+
+#: Admin/class-adminbusinesstable.php:226
+msgid "All Statuses"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:70
+msgid "All cities"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2028
+msgid "All notifications marked as read."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:191
+msgid "Already following or unavailable"
+msgstr ""
+
+#: Frontend/class-publiccontroller.php:380
+msgid "An error occurred."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:950 Frontend/Templates/business-portal.php:77
+msgid "Analytics"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:751 Frontend/class-ajaxhandler.php:2772
+#: Frontend/class-ajaxhandler.php:2847 Frontend/Templates/single.php:121
+#: Frontend/Templates/single.php:772 Frontend/Templates/single.php:795
+msgid "Anonymous"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:96
+msgid "Any"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:84
+msgid "Any distance"
+msgstr ""
+
+#: Admin/Pages/class-claimspage.php:89
+#: Admin/Pages/class-verificationspage.php:88
+msgid "Approve"
+msgstr ""
+
+#: Admin/Pages/class-claimspage.php:50
+#: Admin/Pages/class-verificationspage.php:50
+msgid "Approved"
+msgstr ""
+
+#: Frontend/class-publiccontroller.php:381
+msgid "Are you sure you want to delete this?"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2652
+msgid "Ask questions related to your business or browse the community Q&A."
+msgstr ""
+
+#: Frontend/Templates/single.php:756
+msgid "Ask this business"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:464
+msgid "Avg Rating"
+msgstr ""
+
+#: Admin/Pages/class-dashboardpage.php:66
+msgid "Awaiting moderation:"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:458
+msgid "Back"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:236
+msgid "Basics"
+msgstr ""
+
+#. translators: 1: service name. 2: site name
+#: Frontend/class-ajaxhandler.php:2384
+#, php-format
+msgid "Book \"%1$s\" at %2$s"
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:100 Frontend/Templates/single.php:488
+msgid "Book Now"
+msgstr ""
+
+#. translators: %s: service name
+#: Frontend/class-ajaxhandler.php:2400
+#, php-format
+msgid "Booking confirmed for \"%s\"!"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:638
+msgid "Brief summary for listings..."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3047
+msgid "Brief summary shown in product listings..."
+msgstr ""
+
+#: Admin/Pages/class-analyticspage.php:117
+#: Admin/Pages/class-analyticspage.php:132 Admin/Pages/class-claimspage.php:59
+#: Admin/Pages/class-verificationspage.php:58
+#: Frontend/Templates/service-detail.php:175 Frontend/Templates/single.php:832
+#: zeko-business.php:380
+msgid "Business"
+msgstr ""
+
+#. translators: 1: business ID. 2: request method. 3: request status
+#: Privacy/class-gdpr.php:141 Privacy/class-gdpr.php:148
+#, php-format
+msgid "Business #%1$d — method: %2$s — status: %3$s"
+msgstr ""
+
+#. translators: 1: business ID. 2: rating out of 5. 3: review content
+#: Privacy/class-gdpr.php:128
+#, php-format
+msgid "Business #%1$d — rating %2$d/5: %3$s"
+msgstr ""
+
+#: Admin/Pages/class-analyticspage.php:51
+msgid "Business Analytics"
+msgstr ""
+
+#: zeko-business.php:392
+msgid "Business Archives"
+msgstr ""
+
+#: zeko-business.php:436
+msgid "Business Categories"
+msgstr ""
+
+#: zeko-business.php:437
+msgid "Business Category"
+msgstr ""
+
+#: Admin/Pages/class-claimspage.php:45
+msgid "Business Claims"
+msgstr ""
+
+#: Admin/class-adminbusinessespage.php:24 Frontend/class-shortcodes.php:52
+#: zeko-business.php:381 zeko-business.php:529
+msgid "Business Directory"
+msgstr ""
+
+#: Admin/Pages/class-dashboardpage.php:39
+msgid "Business Directory — Dashboard"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1015 Frontend/Templates/single.php:292
+#: Frontend/Templates/single.php:298 Frontend/Templates/single.php:302
+#: Frontend/Templates/single.php:306 Widgets/class-hourswidget.php:64
+msgid "Business Hours"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1465 Frontend/class-ajaxhandler.php:1502
+msgid "Business ID and category name are required"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1854 Frontend/class-ajaxhandler.php:1913
+msgid "Business ID and email are required"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1758
+msgid "Business ID and image are required"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2061 Frontend/class-ajaxhandler.php:2116
+msgid "Business ID and method are required"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1411
+msgid "Business ID and name are required"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:351
+msgid "Business Logo"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1127 Frontend/class-shortcodes.php:255
+msgid "Business Name"
+msgstr ""
+
+#: Frontend/Templates/business-portal.php:128
+#: Integration/class-ecosystem.php:244 zeko-business.php:544
+msgid "Business Portal"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1122
+msgid "Business Settings"
+msgstr ""
+
+#: Integration/class-ecosystem.php:260
+msgid "Business Updates"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1550 Frontend/class-ajaxhandler.php:1639
+#: Frontend/class-ajaxhandler.php:1673
+msgid "Business and service IDs are required"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:253
+msgid "Business basics"
+msgstr ""
+
+#: Privacy/class-gdpr.php:142
+msgid "Business claim"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1298
+msgid "Business could not be created"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1359
+msgid "Business created!"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:406
+msgid "Business description and details"
+msgstr ""
+
+#: Frontend/Templates/single.php:368
+msgid "Business email"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1001
+msgid "Business hours are not available on your current plan."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1739
+msgid "Business hours saved!"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1240
+msgid "Business name is required"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2300
+msgid "Business not found"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:152 Frontend/Templates/single.php:35
+msgid "Business not found."
+msgstr ""
+
+#: Frontend/Templates/single.php:369
+msgid "Business phone"
+msgstr ""
+
+#: zeko-business.php:398
+msgid "Business profiles in the Zeko directory."
+msgstr ""
+
+#: Frontend/Templates/single.php:207
+msgid "Business sections"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1392
+msgid "Business updated!"
+msgstr ""
+
+#: Domain/class-businessservice.php:815 Integration/class-ecosystem.php:269
+msgid "Business verified"
+msgstr ""
+
+#: Integration/class-ecosystem.php:111 Integration/class-ecosystem.php:227
+#: Integration/class-ecosystem.php:323 Integration/class-ecosystem.php:361
+#: zeko-business.php:379
+msgid "Businesses"
+msgstr ""
+
+#: Admin/class-adminbusinessespage.php:27
+msgid "Businesses updated."
+msgstr ""
+
+#. translators: 1: product title. 2: site name
+#: Frontend/class-ajaxhandler.php:2462
+#, php-format
+msgid "Buy \"%1$s\" from %2$s"
+msgstr ""
+
+#: Frontend/Templates/single.php:546
+msgid "Buy Now"
+msgstr ""
+
+#: Admin/Pages/class-analyticspage.php:100
+msgid "By Plan"
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:54
+msgid "Cache flushed."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1163
+msgid "Call"
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:185 Frontend/Templates/single.php:842
+msgid "Cancel"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3175
+msgid "Cancel Edit"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:264 zeko-business.php:438
+msgid "Categories"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:561 Frontend/class-ajaxhandler.php:675
+#: Frontend/Templates/service-detail.php:132
+msgid "Category"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1478
+msgid "Category added!"
+msgstr ""
+
+#: Admin/class-adminbusinesstable.php:40 Admin/class-admincontroller.php:188
+#: Frontend/class-ajaxhandler.php:1148 Frontend/class-shortcodes.php:68
+#: Frontend/class-shortcodes.php:291
+msgid "City"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:79
+msgid "City or postcode"
+msgstr ""
+
+#: Domain/class-businessservice.php:733
+msgid "Claim approved"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2080
+msgid "Claim could not be submitted (already claimed or pending)"
+msgstr ""
+
+#: Domain/class-businessservice.php:767
+msgid "Claim rejected"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2083
+msgid "Claim submitted for review."
+msgstr ""
+
+#: Frontend/Templates/single.php:356
+msgid "Claim this listing to manage its details, respond to reviews and more."
+msgstr ""
+
+#: Frontend/Templates/single.php:346
+msgid "Claim under review"
+msgstr ""
+
+#: Admin/Pages/class-claimspage.php:60
+msgid "Claimant"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:343
+msgid "Click \"Use My Location\" or enter coordinates for map display."
+msgstr ""
+
+#: Frontend/class-shortcodes.php:364
+msgid "Click to upload cover photo"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:354
+msgid "Click to upload logo"
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:166 Frontend/Templates/single.php:823
+msgid "Close"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1030 Widgets/class-hourswidget.php:106
+msgid "Closed"
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:70 Frontend/Templates/single.php:157
+#: Frontend/Templates/single.php:309 Widgets/class-hourswidget.php:95
+msgid "Closed now"
+msgstr ""
+
+#. translators: %s: day of the week
+#: Frontend/class-ajaxhandler.php:1038
+#, php-format
+msgid "Closed on %s"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1030
+msgid "Closes"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3137
+msgid "Comma-separated: tag1, tag2, tag3"
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:186 Frontend/Templates/single.php:843
+msgid "Confirm & Pay"
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:167 Frontend/Templates/single.php:824
+msgid "Confirm Booking"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1166
+#: Frontend/Templates/service-detail.php:138
+msgid "Contact"
+msgstr ""
+
+#: Frontend/class-publiccontroller.php:385
+msgid "Copied to all days."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1044
+msgid "Copy first row to all days"
+msgstr ""
+
+#: Frontend/Templates/single.php:183
+msgid "Copy link"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1473
+msgid "Could not create category"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1518
+msgid "Could not create product category"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1978
+msgid "Could not resend invitation"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1927
+msgid "Could not send invitation. User may already be a member."
+msgstr ""
+
+#: Admin/Pages/class-analyticspage.php:102
+msgid "Count"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1156 Frontend/class-shortcodes.php:301
+msgid "Country"
+msgstr ""
+
+#: Integration/class-ecosystem.php:393 Integration/class-ecosystem.php:470
+msgid "Courses"
+msgstr ""
+
+#: zeko-business.php:393
+msgid "Cover Image"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:361
+msgid "Cover Photo"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:454
+msgid "Create Business"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:488
+msgid "Create One"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:233
+msgid "Create Your Business"
+msgstr ""
+
+#: Integration/class-ecosystem.php:127
+msgid "Create a Business"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2963
+msgid ""
+"Create and manage products for your business. Products are powered by Zeko "
+"Shop."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1082
+msgid "Create another business"
+msgstr ""
+
+#: Admin/Pages/class-settingspage.php:243
+#: Admin/Pages/class-settingspage.php:257
+msgid "Criterion label"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3210
+msgid "Current Plan"
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:84
+msgid "Current demo data"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:580 Frontend/class-ajaxhandler.php:696
+msgid "Custom"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:975
+msgid "Daily views for the last 14 days"
+msgstr ""
+
+#: Admin/class-adminbusinesstable.php:44 Admin/Pages/class-claimspage.php:64
+#: Admin/Pages/class-dashboardpage.php:121
+#: Admin/Pages/class-verificationspage.php:63
+msgid "Date"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1030
+msgid "Day"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:537 Frontend/class-ajaxhandler.php:3019
+msgid "Delete"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:927
+msgid "Delete photo"
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:126
+msgid ""
+"Deletes only the businesses and related rows created by the demo generator. "
+"Your real listings are left untouched."
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:72
+msgid "Demo Data"
+msgstr ""
+
+#. translators: %d = number of businesses added
+#: Admin/Pages/class-demodatapage.php:37
+#, php-format
+msgid ""
+"Demo data generated: %1$d businesses, %2$d services, %3$d reviews, %4$d "
+"followers, %5$d media."
+msgstr ""
+
+#. translators: %1$d = businesses removed; %2$d = total items removed
+#: Admin/Pages/class-demodatapage.php:48
+#, php-format
+msgid "Demo data removed: %1$d businesses and %2$d total items cleaned up."
+msgstr ""
+
+#: Frontend/class-shortcodes.php:408
+msgid "Description"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:239 Frontend/Templates/service-detail.php:115
+msgid "Details"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3151
+msgid "Digital"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3093
+msgid "Digital File URL"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2928
+msgid "Digital Product"
+msgstr ""
+
+#: Integration/class-ecosystem.php:232
+msgid "Directory"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2175 Frontend/class-shortcodes.php:710
+msgid "Directory pagination"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3229
+msgid "Downgrade — contact support"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2931
+msgid "Downloadable"
+msgstr ""
+
+#: Frontend/class-publiccontroller.php:360
+msgid "Downvote"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:572 Frontend/class-ajaxhandler.php:688
+#: Frontend/Templates/service-detail.php:126
+msgid "Duration"
+msgstr ""
+
+#: Integration/class-ecosystem.php:519
+msgid "Earned Badges"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:536 Frontend/class-ajaxhandler.php:3018
+msgid "Edit"
+msgstr ""
+
+#: zeko-business.php:385
+msgid "Edit Business"
+msgstr ""
+
+#: zeko-business.php:440
+msgid "Edit Category"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3029
+msgid "Edit Product"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:850 Frontend/class-ajaxhandler.php:868
+msgid "Editor"
+msgstr ""
+
+#: Admin/class-adminbusinesstable.php:39 Admin/class-admincontroller.php:187
+#: Frontend/class-ajaxhandler.php:785 Frontend/class-ajaxhandler.php:814
+#: Frontend/class-ajaxhandler.php:1131 Frontend/class-ajaxhandler.php:1165
+#: Frontend/class-shortcodes.php:311 Frontend/Templates/single.php:247
+msgid "Email"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:842 Frontend/class-ajaxhandler.php:860
+msgid "Email Address"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2932
+msgid "Equipment"
+msgstr ""
+
+#: Admin/Pages/class-claimspage.php:62
+msgid "Evidence"
+msgstr ""
+
+#: Frontend/Templates/single.php:374
+msgid "Evidence details"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:835
+msgid "Existing User"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:814
+msgid "Expires"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2550
+msgid "Failed to create product"
+msgstr ""
+
+#: Admin/class-admincontroller.php:325
+msgid "Feature"
+msgstr ""
+
+#: Admin/class-admincontroller.php:191 Frontend/class-shortcodes.php:63
+#: Frontend/class-shortcodes.php:644 Frontend/Templates/service-detail.php:62
+#: Frontend/Templates/single.php:727
+msgid "Featured"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:104
+msgid "Featured first"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3168
+msgid "Featured product"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:609 Frontend/class-ajaxhandler.php:712
+msgid "Featured service"
+msgstr ""
+
+#: Admin/class-adminbusinesstable.php:238
+msgid "Filter"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:59
+msgid "Filter by status"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:53
+msgid "Find businesses in your area"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:592
+msgid "Fixed"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:655
+msgid "Fixed Price"
+msgstr ""
+
+#: Frontend/class-publiccontroller.php:378
+msgid "Follow"
+msgstr ""
+
+#: Privacy/class-gdpr.php:135
+msgid "Followed business"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:456
+msgid "Followers"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3095
+msgid "For downloadable products only."
+msgstr ""
+
+#: Frontend/class-shortcodes.php:235
+msgid "Form progress"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:527 Frontend/Templates/service-detail.php:84
+#: Frontend/Templates/single.php:456
+msgid "Free"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1007 Frontend/Templates/single.php:56
+#: Widgets/class-hourswidget.php:73
+msgid "Friday"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:553 Frontend/class-ajaxhandler.php:641
+#: Frontend/class-ajaxhandler.php:3051
+msgid "Full Description"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:579 Frontend/class-ajaxhandler.php:695
+msgid "Full day"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3074
+msgid "Gallery Images"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:371
+msgid "Gallery Photos"
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:118
+msgid "Generate Demo Data"
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:103
+msgid "Generate demo data"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1172
+msgid "Get Tickets"
+msgstr ""
+
+#: Frontend/Templates/single.php:386
+msgid "Get verified"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:578 Frontend/class-ajaxhandler.php:694
+msgid "Half day"
+msgstr ""
+
+#: zeko-business.php:667
+msgid ""
+"Hand-roasted coffee, seasonal Californian plates and a sunny garden patio in "
+"the heart of San Francisco."
+msgstr ""
+
+#. translators: 1: inviter name, 2: business name, 3: role, 4: accept URL, 5: expiry date
+#: Domain/class-teamservice.php:166
+#, php-format
+msgid ""
+"Hello!\n"
+"\n"
+"%1$s has invited you to join %2$s as a %3$s.\n"
+"\n"
+"Click here to accept the invitation:\n"
+"%4$s\n"
+"\n"
+"This invitation expires on %5$s.\n"
+"\n"
+"If you don't have an account yet, you'll be prompted to create one after "
+"clicking the link."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2891 Frontend/Templates/single.php:680
+msgid "Helpful"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:105
+msgid "Highest rated"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:593
+msgid "Hourly"
+msgstr ""
+
+#: Frontend/Templates/business-portal.php:69
+msgid "Hours"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1020
+msgid "Hours availability"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1734
+msgid "Hours could not be saved"
+msgstr ""
+
+#: Frontend/Templates/single.php:303
+msgid "Hours have not been published yet."
+msgstr ""
+
+#. translators: %1$s: site name, %2$d: number of items
+#: Domain/class-digestservice.php:155
+#, php-format
+msgid "Howdy! %1$s has %2$d new question%3$s for one of your businesses:"
+msgstr ""
+
+#: Domain/class-cron.php:110
+#, php-format
+msgid ""
+"Howdy,\n"
+"\n"
+"The business directory has %1$d review(s) waiting in the moderation queue.\n"
+"\n"
+"Manage them here: %2$s"
+msgstr ""
+
+#: Frontend/Templates/single.php:531
+msgid "In Stock"
+msgstr ""
+
+#. translators: %d: number of units in stock
+#: Frontend/Templates/single.php:533
+#, php-format
+msgid "In Stock (%d)"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:534 Frontend/class-ajaxhandler.php:3005
+#: Frontend/class-ajaxhandler.php:3160 Frontend/class-publiccontroller.php:383
+msgid "Inactive"
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:122
+msgid "Info"
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:158
+msgid ""
+"Interested in this service? Contact the business to book or ask questions."
+msgstr ""
+
+#: Core/class-demoseeder.php:451
+msgid "Interior"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1766
+msgid "Invalid attachment"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:177 Frontend/class-ajaxhandler.php:210
+#: Frontend/class-ajaxhandler.php:1381 Frontend/class-ajaxhandler.php:1711
+#: Frontend/class-ajaxhandler.php:2000
+msgid "Invalid business"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1917
+msgid "Invalid email address"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1721 Frontend/class-ajaxhandler.php:1726
+msgid "Invalid hours data"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1948 Frontend/class-ajaxhandler.php:1972
+msgid "Invalid invite"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1886
+msgid "Invalid member"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:189
+msgid "Invalid or expired invitation."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1818 Frontend/class-ajaxhandler.php:1824
+msgid "Invalid photo"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2310
+msgid "Invalid plan price"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2426
+msgid "Invalid product or business"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2450
+msgid "Invalid product price"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2291
+msgid "Invalid request"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:283
+msgid "Invalid review data"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1560 Frontend/class-ajaxhandler.php:1649
+#: Frontend/class-ajaxhandler.php:1683
+msgid "Invalid service"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2363
+msgid "Invalid service or business"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:245 Frontend/class-ajaxhandler.php:251
+#: Frontend/class-ajaxhandler.php:1235 Frontend/class-ajaxhandler.php:2049
+#: Frontend/class-ajaxhandler.php:2053 Frontend/class-ajaxhandler.php:2104
+#: Frontend/class-ajaxhandler.php:2108
+msgid "Invalid submission"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:345
+msgid "Invalid vote"
+msgstr ""
+
+#: Domain/class-teamservice.php:249
+msgid "Invitation accepted"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:187
+msgid "Invitation accepted! You are now a team member."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1981
+msgid "Invitation resent!"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1955
+msgid "Invitation revoked."
+msgstr ""
+
+#: Domain/class-teamservice.php:182
+msgid "Invitation sent"
+msgstr ""
+
+#. translators: %s: email address
+#: Frontend/class-ajaxhandler.php:1931
+#, php-format
+msgid "Invitation sent to %s!"
+msgstr ""
+
+#. translators: %s: email address
+#: Domain/class-teamservice.php:184
+#, php-format
+msgid "Invitation sent to %s."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:832
+msgid "Invite Staff"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:836
+msgid "Invite by Email"
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:171 Frontend/Templates/single.php:828
+msgid "Item"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2628
+msgid "Job posting form not available."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2620
+#: Frontend/Templates/business-portal.php:88 Frontend/Templates/single.php:216
+#: Integration/class-ecosystem.php:384 Integration/class-ecosystem.php:419
+msgid "Jobs"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2615
+msgid "Jobs plugin is not active."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1189 Frontend/class-ajaxhandler.php:1201
+msgid "Label (optional)"
+msgstr ""
+
+#: Integration/class-ecosystem.php:173
+msgid "Latest Reviews"
+msgstr ""
+
+#: Frontend/Templates/single.php:578
+msgid "Leave a Review"
+msgstr ""
+
+#: Frontend/class-publiccontroller.php:386
+msgid "Link copied to clipboard."
+msgstr ""
+
+#: Frontend/class-shortcodes.php:116
+msgid "List view"
+msgstr ""
+
+#: Frontend/Templates/business-portal.php:151
+msgid "Loading..."
+msgstr ""
+
+#: Frontend/class-shortcodes.php:237 Frontend/Templates/single.php:222
+#: Frontend/Templates/single.php:275
+msgid "Location"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:284
+msgid "Location and contact details"
+msgstr ""
+
+#: Frontend/Templates/single.php:380
+msgid "Log in to claim"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:82
+msgid "Login required"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:349
+msgid "Logo and cover photo"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1076 Frontend/class-shortcodes.php:504
+#: Integration/class-ecosystem.php:371
+msgid "Manage"
+msgstr ""
+
+#: Frontend/Templates/single.php:176
+msgid "Manage in Portal"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:498
+msgid ""
+"Manage services your business offers. Rich descriptions help customers "
+"understand what you provide."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:851 Frontend/class-ajaxhandler.php:869
+msgid "Manager"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:330
+msgid "Map Coordinates"
+msgstr ""
+
+#: Frontend/Templates/single.php:278
+msgid "Map showing business location"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:238 Frontend/Templates/business-portal.php:73
+msgid "Media"
+msgstr ""
+
+#: Integration/class-ecosystem.php:399
+msgid "Mentoring"
+msgstr ""
+
+#: Integration/class-ecosystem.php:504
+msgid "Mentoring Sessions"
+msgstr ""
+
+#: Admin/Pages/class-claimspage.php:61
+#: Admin/Pages/class-verificationspage.php:60
+#: Frontend/class-ajaxhandler.php:2820
+msgid "Method"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1007 Frontend/Templates/single.php:52
+#: Widgets/class-hourswidget.php:69
+msgid "Monday"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:106
+msgid "Most viewed"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:843
+msgid "Must match an existing account"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1059 Frontend/class-shortcodes.php:484
+#: Frontend/Templates/business-portal.php:49
+#: Integration/class-ecosystem.php:132 Integration/class-ecosystem.php:240
+#: zeko-business.php:539
+msgid "My Businesses"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2797
+#: Frontend/Templates/business-portal.php:81
+msgid "My Claims"
+msgstr ""
+
+#: Admin/class-adminbusinesstable.php:37
+#: Admin/Pages/class-dashboardpage.php:118 Frontend/class-ajaxhandler.php:785
+msgid "Name"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:108
+msgid "Name A–Z"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:78
+msgid "Near"
+msgstr ""
+
+#: zeko-business.php:386
+msgid "New Business"
+msgstr ""
+
+#: zeko-business.php:444
+msgid "New Category Name"
+msgstr ""
+
+#. translators: %s: business name
+#: Integration/class-ecosystem.php:300
+#, php-format
+msgid "New business registered: %s"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:567 Frontend/class-ajaxhandler.php:681
+#: Frontend/class-ajaxhandler.php:3131
+msgid "New category name"
+msgstr ""
+
+#: Domain/class-businessservice.php:565
+msgid "New follower"
+msgstr ""
+
+#: Integration/class-ecosystem.php:266
+msgid "New follower on your business"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:959
+msgid "New followers (30d)"
+msgstr ""
+
+#: Integration/class-ecosystem.php:265
+msgid "New review on your business"
+msgstr ""
+
+#: Domain/class-reviewservice.php:310
+msgid "New review received"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:963
+msgid "New reviews (30d)"
+msgstr ""
+
+#: Domain/class-teamservice.php:259
+msgid "New team member joined"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:107
+msgid "Newest"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:459
+msgid "Next"
+msgstr ""
+
+#. translators: %s: migration source label
+#: Import/class-migrator.php:202 Import/class-migrator.php:276
+#, php-format
+msgid "No %s data was detected on this site."
+msgstr ""
+
+#: zeko-business.php:391
+msgid "No businesses found in Trash."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2164 Frontend/class-shortcodes.php:686
+#: zeko-business.php:390
+msgid "No businesses found."
+msgstr ""
+
+#: Admin/Pages/class-dashboardpage.php:113
+msgid "No businesses yet."
+msgstr ""
+
+#: zeko-business.php:448
+msgid "No categories found."
+msgstr ""
+
+#: Admin/Pages/class-claimspage.php:70
+msgid "No claims found."
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:99
+msgid "No demo data has been generated yet."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1025 Widgets/class-hourswidget.php:91
+msgid "No hours listed"
+msgstr ""
+
+#: Frontend/Templates/single.php:720
+msgid "No job openings posted yet."
+msgstr ""
+
+#: Frontend/Templates/single.php:814
+msgid "No location data available."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2758
+msgid "No mentions found yet."
+msgstr ""
+
+#: Frontend/Templates/single.php:783
+msgid "No mentions or requests found yet."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1096
+msgid "No notifications."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:911
+msgid "No photos yet."
+msgstr ""
+
+#: Frontend/Templates/single.php:500
+msgid "No products listed."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3025
+msgid "No products yet. Create your first product below."
+msgstr ""
+
+#: Frontend/Templates/single.php:760
+msgid "No questions about this business yet."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:742
+msgid "No reviews yet."
+msgstr ""
+
+#: Frontend/Templates/single.php:414
+msgid "No services listed."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:618
+msgid "No services yet. Add your first service below."
+msgstr ""
+
+#: Frontend/Templates/single.php:702
+msgid "No staff members listed."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:806
+msgid "No staff members yet."
+msgstr ""
+
+#: Admin/Pages/class-verificationspage.php:69
+msgid "No verification requests found."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:969
+msgid "No view data yet."
+msgstr ""
+
+#: Admin/Pages/class-analyticspage.php:72
+msgid "No views recorded yet."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1415 Frontend/class-ajaxhandler.php:1468
+#: Frontend/class-ajaxhandler.php:1505 Frontend/class-ajaxhandler.php:1554
+#: Frontend/class-ajaxhandler.php:1643 Frontend/class-ajaxhandler.php:1677
+#: Frontend/class-ajaxhandler.php:1715 Frontend/class-ajaxhandler.php:1762
+#: Frontend/class-ajaxhandler.php:1773 Frontend/class-ajaxhandler.php:1829
+#: Frontend/class-ajaxhandler.php:1890 Frontend/class-ajaxhandler.php:1921
+#: Frontend/class-ajaxhandler.php:2295 Frontend/class-ajaxhandler.php:2502
+#: Frontend/class-ajaxhandler.php:2577
+msgid "Not authorized"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1952
+msgid "Not authorized or invite not found"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1389 Frontend/class-ajaxhandler.php:2008
+msgid "Not authorized or nothing changed"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2894 Frontend/Templates/single.php:683
+msgid "Not helpful"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:574 Frontend/class-ajaxhandler.php:690
+msgid "Not specified"
+msgstr ""
+
+#: Admin/Pages/class-verificationspage.php:61
+msgid "Note"
+msgstr ""
+
+#: Frontend/Templates/single.php:403
+msgid "Notes"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1385 Frontend/class-ajaxhandler.php:1615
+#: Frontend/class-ajaxhandler.php:2004
+msgid "Nothing to update"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1093
+#: Frontend/Templates/business-portal.php:108
+msgid "Notifications"
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:109
+msgid "Number of businesses"
+msgstr ""
+
+#: Frontend/Templates/single.php:397
+msgid "Official documents"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:278
+msgid "One line about what you do"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1023 Frontend/Templates/single.php:293
+#: Widgets/class-hourswidget.php:86
+msgid "Open 24/7"
+msgstr ""
+
+#: Integration/class-ecosystem.php:205
+msgid "Open Business Portal"
+msgstr ""
+
+#: Frontend/Templates/single.php:286
+msgid "Open in OpenStreetMap"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:113 Frontend/Templates/service-detail.php:70
+#: Frontend/Templates/single.php:157 Frontend/Templates/single.php:309
+#: Widgets/class-hourswidget.php:95
+msgid "Open now"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1030
+msgid "Opens"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2934
+msgid "Other"
+msgstr ""
+
+#: Frontend/Templates/single.php:529
+msgid "Out of Stock"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3011
+msgid "Out of stock"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:448 Frontend/Templates/business-portal.php:45
+#: Frontend/Templates/service-detail.php:108 Frontend/Templates/single.php:208
+msgid "Overview"
+msgstr ""
+
+#: Frontend/Templates/single.php:352
+msgid "Own this business?"
+msgstr ""
+
+#: Privacy/class-gdpr.php:121
+msgid "Owned business listing"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:798
+msgid "Owner"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:758 Frontend/Templates/single.php:688
+msgid "Owner Reply"
+msgstr ""
+
+#: zeko-business.php:445
+msgid "Parent Category"
+msgstr ""
+
+#: zeko-business.php:446
+msgid "Parent Category:"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2332 Frontend/class-ajaxhandler.php:2394
+#: Frontend/class-ajaxhandler.php:2472
+msgid "Payment failed"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2337
+msgid "Payment successful. Plan upgraded."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2314 Frontend/class-ajaxhandler.php:2376
+#: Frontend/class-ajaxhandler.php:2454
+msgid "Payment system unavailable"
+msgstr ""
+
+#: Admin/class-adminbusinessespage.php:41 Admin/Pages/class-claimspage.php:49
+#: Admin/Pages/class-dashboardpage.php:52
+#: Admin/Pages/class-verificationspage.php:49
+msgid "Pending"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:812
+msgid "Pending Invitations"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:656
+msgid "Per Hour"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1024 Frontend/Templates/single.php:299
+#: Widgets/class-hourswidget.php:89
+msgid "Permanently closed"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:861
+msgid "Person may or may not have an account yet"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1135 Frontend/class-shortcodes.php:315
+#: Frontend/Templates/single.php:238
+msgid "Phone"
+msgstr ""
+
+#: Frontend/Templates/single.php:398
+msgid "Phone call"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:899
+msgid "Photo Gallery"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1799
+msgid "Photo added!"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:892 Frontend/class-ajaxhandler.php:1782
+msgid "Photo gallery is not available on your current plan."
+msgstr ""
+
+#. translators: %d: maximum allowed photos
+#. translators: %d: photo limit
+#: Frontend/class-ajaxhandler.php:905 Frontend/class-ajaxhandler.php:1787
+#, php-format
+msgid "Photo limit reached (%d)"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1834
+msgid "Photo removed."
+msgstr ""
+
+#: Frontend/Templates/single.php:621
+msgid "Photos (optional)"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:376
+msgid ""
+"Photos will be added to your business gallery. Availability depends on your "
+"plan."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3150
+msgid "Physical"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2927
+msgid "Physical Product"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:273
+msgid "Pick up to 3 categories."
+msgstr ""
+
+#: Admin/class-adminbusinesstable.php:42 Admin/class-admincontroller.php:190
+#: Admin/Pages/class-analyticspage.php:102
+#: Frontend/Templates/business-portal.php:117
+msgid "Plan"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3202
+msgid "Plan & Upgrade"
+msgstr ""
+
+#: Integration/class-hooks.php:123
+msgid "Plan upgraded"
+msgstr ""
+
+#. translators: %s: login URL
+#: Frontend/class-shortcodes.php:173
+#, php-format
+msgid "Please %s to access the business portal."
+msgstr ""
+
+#. translators: %s: login URL
+#: Frontend/class-shortcodes.php:211
+#, php-format
+msgid "Please %s to create a business."
+msgstr ""
+
+#: Frontend/class-shortcodes.php:476
+msgid "Please log in to view your businesses."
+msgstr ""
+
+#: Frontend/class-publiccontroller.php:362
+msgid "Please login to vote"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:451
+msgid "Please review your details before submitting."
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:81
+msgid ""
+"Populate the directory with realistic sample businesses and their associated "
+"services, hours, reviews, followers, media and categories. This is great for "
+"testing the public directory, single business pages, the business portal and "
+"admin analytics."
+msgstr ""
+
+#: Frontend/Templates/business-portal.php:126
+msgid "Portal sections"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2621
+msgid ""
+"Post job openings for your business. Jobs will appear on your public profile "
+"and the jobs board."
+msgstr ""
+
+#: Frontend/class-shortcodes.php:305
+msgid "Postal Code"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:586 Frontend/class-ajaxhandler.php:3102
+msgid "Price"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:704
+msgid "Price Note"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:590
+msgid "Price Type"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:648
+msgid "Pricing"
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:190 Frontend/Templates/single.php:847
+msgid "Processing payment..."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3123
+msgid "Product Category"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3061
+msgid "Product Image"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3041
+msgid "Product Name"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3148
+msgid "Product Type"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1513
+msgid "Product categories are unavailable."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1525
+msgid "Product category added!"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2554
+msgid "Product created!"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2592
+msgid "Product deleted."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2440
+msgid "Product is not available"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2445
+msgid "Product is out of stock"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2514
+msgid "Product name is required"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2436 Frontend/class-ajaxhandler.php:2541
+#: Frontend/class-ajaxhandler.php:2588
+msgid "Product not found"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2544
+msgid "Product updated!"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2962
+#: Frontend/Templates/business-portal.php:57 Frontend/Templates/single.php:210
+#: Integration/class-ecosystem.php:387 Integration/class-ecosystem.php:436
+msgid "Products"
+msgstr ""
+
+#: Integration/class-ecosystem.php:396 Integration/class-ecosystem.php:487
+msgid "Projects"
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:67
+msgid "Provided by"
+msgstr ""
+
+#. translators: %s: product title
+#: Frontend/class-ajaxhandler.php:2482
+#, php-format
+msgid "Purchase confirmed for \"%s\"!"
+msgstr ""
+
+#: Frontend/Templates/business-portal.php:95 Frontend/Templates/single.php:219
+#: Integration/class-ecosystem.php:390
+msgid "Q&A"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2646 Frontend/class-ajaxhandler.php:2703
+msgid "Q&A plugin is not active."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2659
+msgid "Question form not available."
+msgstr ""
+
+#: Integration/class-ecosystem.php:458
+msgid "Questions"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2651
+msgid "Questions & Answers"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2709
+msgid ""
+"Questions where your business name or your name is mentioned will appear "
+"here."
+msgstr ""
+
+#: Admin/class-adminbusinesstable.php:41 Admin/class-admincontroller.php:189
+#: Admin/Pages/class-analyticspage.php:132
+#: Admin/Pages/class-dashboardpage.php:120 Frontend/class-shortcodes.php:94
+msgid "Rating"
+msgstr ""
+
+#. translators: %s: rejection reason
+#: Domain/class-businessservice.php:361
+#, php-format
+msgid "Reason: %s"
+msgstr ""
+
+#: Admin/Pages/class-dashboardpage.php:111
+msgid "Recent Businesses"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2665
+msgid "Recent Questions"
+msgstr ""
+
+#: Frontend/Templates/single.php:370
+msgid "Registration document"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1022
+msgid "Regular weekly schedule"
+msgstr ""
+
+#: Admin/Pages/class-claimspage.php:90
+#: Admin/Pages/class-verificationspage.php:89
+msgid "Reject"
+msgstr ""
+
+#: Admin/Pages/class-claimspage.php:51
+#: Admin/Pages/class-verificationspage.php:51
+msgid "Rejected"
+msgstr ""
+
+#. translators: 1: business name
+#: Domain/class-teamservice.php:335
+#, php-format
+msgid "Reminder: Join %1$s"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:796 Frontend/class-ajaxhandler.php:3070
+#: Frontend/class-shortcodes.php:357 Frontend/class-shortcodes.php:367
+msgid "Remove"
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:128
+msgid "Remove Demo Data"
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:122
+msgid "Remove all generated demo data? This cannot be undone."
+msgstr ""
+
+#: zeko-business.php:395
+msgid "Remove cover image"
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:121
+msgid "Remove demo data"
+msgstr ""
+
+#: Domain/class-teamservice.php:377
+msgid "Removed from business team"
+msgstr ""
+
+#: Frontend/Templates/single.php:406
+msgid "Request Verification"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2135
+msgid "Request could not be submitted (already verified or pending)"
+msgstr ""
+
+#: Admin/Pages/class-verificationspage.php:59
+msgid "Requester"
+msgstr ""
+
+#: Frontend/Templates/business-portal.php:99 Frontend/Templates/single.php:220
+msgid "Requests"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2708
+msgid "Requests & Mentions"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:822
+msgid "Resend"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:240 Privacy/class-gdpr.php:129
+msgid "Review"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:449
+msgid "Review and submit"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:308
+msgid "Review could not be submitted"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:351
+msgid "Review not found"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:320
+msgid "Review submitted!"
+msgstr ""
+
+#: Frontend/Templates/single.php:615
+msgid "Review title (optional)"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2829
+msgid "Reviewed"
+msgstr ""
+
+#: Admin/Pages/class-analyticspage.php:132 Frontend/class-ajaxhandler.php:460
+#: Frontend/class-ajaxhandler.php:740 Frontend/Templates/business-portal.php:65
+#: Frontend/Templates/single.php:211
+msgid "Reviews"
+msgstr ""
+
+#: Frontend/Templates/single.php:696
+msgid "Reviews are not enabled."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:823
+msgid "Revoke"
+msgstr ""
+
+#: Integration/class-ecosystem.php:402
+msgid "Rewards"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:785 Frontend/class-ajaxhandler.php:814
+#: Frontend/class-ajaxhandler.php:847 Frontend/class-ajaxhandler.php:865
+msgid "Role"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3116
+msgid "SKU"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3109
+msgid "Sale Price"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1007 Frontend/Templates/single.php:57
+#: Widgets/class-hourswidget.php:74
+msgid "Saturday"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1211
+msgid "Save Changes"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1047
+msgid "Save Hours"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:612
+msgid "Save Service"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:57
+msgid "Search"
+msgstr ""
+
+#: zeko-business.php:389
+msgid "Search Businesses"
+msgstr ""
+
+#: zeko-business.php:447
+msgid "Search Categories"
+msgstr ""
+
+#: Admin/class-adminbusinessespage.php:52 Frontend/class-shortcodes.php:56
+msgid "Search businesses"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:56
+msgid "Search businesses..."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:109
+msgid "Security check failed"
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:113
+msgid ""
+"Seeds up to 10 varied sample businesses (café, auto repair, home services, "
+"yoga, web studio, spa, fitness, clinic, education, retail)."
+msgstr ""
+
+#: Frontend/class-shortcodes.php:366
+msgid "Select Cover"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:604 Frontend/class-ajaxhandler.php:669
+#: Frontend/class-ajaxhandler.php:3069
+msgid "Select Image"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:356
+msgid "Select Logo"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:477 Frontend/class-ajaxhandler.php:734
+#: Frontend/class-ajaxhandler.php:774 Frontend/class-ajaxhandler.php:884
+#: Frontend/class-ajaxhandler.php:942 Frontend/class-ajaxhandler.php:994
+#: Frontend/class-ajaxhandler.php:2609 Frontend/class-ajaxhandler.php:2640
+#: Frontend/class-ajaxhandler.php:2697 Frontend/class-ajaxhandler.php:2909
+#: Frontend/class-ajaxhandler.php:3190
+msgid "Select a business first."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1118
+msgid "Select a business to edit settings."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:444
+msgid "Select a business to view its overview."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:563
+msgid "Select category"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:677 Frontend/class-ajaxhandler.php:3125
+msgid "Select category..."
+msgstr ""
+
+#: Frontend/class-publiccontroller.php:384
+msgid "Select images"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:432
+msgid "Select..."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:872
+msgid "Send Invitation"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3152
+msgid "Service"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:603 Frontend/class-ajaxhandler.php:665
+msgid "Service Image"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:545 Frontend/class-ajaxhandler.php:633
+msgid "Service Name"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1446
+msgid "Service added!"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1654
+msgid "Service deleted."
+msgstr ""
+
+#. translators: %d: maximum allowed services
+#: Frontend/class-ajaxhandler.php:722
+#, php-format
+msgid "Service limit reached (%d). Upgrade your plan to add more."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1425
+msgid "Service limit reached. Upgrade your plan to add more."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1568
+msgid "Service name is required"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2368
+msgid "Service not found"
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:23
+msgid "Service not found."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1620 Frontend/class-ajaxhandler.php:1690
+msgid "Service updated!"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2929
+msgid "Service-based"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:497 Frontend/Templates/business-portal.php:53
+#: Frontend/Templates/single.php:209
+msgid "Services"
+msgstr ""
+
+#: zeko-business.php:394
+msgid "Set cover image"
+msgstr ""
+
+#: Frontend/Templates/business-portal.php:113
+msgid "Settings"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2011
+msgid "Settings saved!"
+msgstr ""
+
+#: Frontend/Templates/single.php:182
+msgid "Share by email"
+msgstr ""
+
+#: Frontend/Templates/single.php:179
+msgid "Share on Facebook"
+msgstr ""
+
+#: Frontend/Templates/single.php:181
+msgid "Share on WhatsApp"
+msgstr ""
+
+#: Frontend/Templates/single.php:180
+msgid "Share on X"
+msgstr ""
+
+#: Frontend/Templates/single.php:618
+msgid "Share your experience..."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2506 Frontend/class-ajaxhandler.php:2581
+msgid "Shop plugin is not active"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1508 Frontend/class-ajaxhandler.php:2430
+#: Frontend/class-ajaxhandler.php:2915
+msgid "Shop plugin is not active."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:549 Frontend/class-ajaxhandler.php:637
+#: Frontend/class-ajaxhandler.php:3046
+msgid "Short Description"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:277
+msgid "Short description"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1179
+msgid ""
+"Shortcut buttons shown on your public listing. Leave a value blank to fall "
+"back to your stored contact details."
+msgstr ""
+
+#: Widgets/class-hourswidget.php:31
+msgid "Show a business's working hours and open/closed status on its listing."
+msgstr ""
+
+#: Frontend/class-shortcodes.php:279
+msgid "Shown in directory cards and search results."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1169
+msgid "Sign Up"
+msgstr ""
+
+#: Frontend/Templates/single.php:399
+msgid "Site visit"
+msgstr ""
+
+#: Frontend/Templates/single.php:333
+msgid "Social Links"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:379
+msgid "Social Media"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2933
+msgid "Software"
+msgstr ""
+
+#: Privacy/class-gdpr.php:218
+msgid "Some business data could not be erased and may need manual review."
+msgstr ""
+
+#: Domain/class-businessservice.php:560
+msgid "Someone"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:102
+msgid "Sort by"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:640 Frontend/Templates/single.php:150
+msgid "Sponsored"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:849 Frontend/class-ajaxhandler.php:867
+#: Frontend/Templates/business-portal.php:61 Frontend/Templates/single.php:213
+msgid "Staff"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:781
+msgid "Staff Members"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1893
+msgid "Staff member removed."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1170
+msgid "Start Order"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:287
+msgid "Start typing for suggestions..."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:657
+msgid "Starting At"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:594
+msgid "Starting at"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1152
+msgid "State"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:295
+msgid "State / Province"
+msgstr ""
+
+#: Admin/class-adminbusinesstable.php:38 Admin/class-admincontroller.php:186
+#: Admin/Pages/class-claimspage.php:63 Admin/Pages/class-dashboardpage.php:119
+#: Admin/Pages/class-verificationspage.php:62
+#: Frontend/class-ajaxhandler.php:785 Frontend/class-ajaxhandler.php:3157
+msgid "Status"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3143
+msgid "Stock Quantity"
+msgstr ""
+
+#. translators: %d: number of units in stock
+#: Frontend/class-ajaxhandler.php:3013
+#, php-format
+msgid "Stock: %d"
+msgstr ""
+
+#: zeko-business.php:676
+msgid ""
+"Stop by for a morning flat white, stay for lunch on our garden patio, and "
+"join us on Friday evenings for live acoustic sets and local craft beer."
+msgstr ""
+
+#: Core/class-demoseeder.php:451
+msgid "Storefront"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:286
+msgid "Street Address"
+msgstr ""
+
+#: Frontend/class-publiccontroller.php:361
+msgid "Submit Answer"
+msgstr ""
+
+#: Frontend/Templates/single.php:377
+msgid "Submit Claim"
+msgstr ""
+
+#: Frontend/Templates/single.php:626
+msgid "Submit Review"
+msgstr ""
+
+#: Frontend/Templates/single.php:348
+msgid "Submitted"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2930 Frontend/class-ajaxhandler.php:3153
+msgid "Subscription"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1007 Frontend/Templates/single.php:51
+#: Widgets/class-hourswidget.php:68
+msgid "Sunday"
+msgstr ""
+
+#: Admin/class-admincontroller.php:324
+msgid "Suspend"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:430
+msgid "Tab content not available."
+msgstr ""
+
+#: Frontend/class-shortcodes.php:259
+msgid "Tagline"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:598 Frontend/class-ajaxhandler.php:700
+#: Frontend/class-ajaxhandler.php:3136
+#: Frontend/Templates/service-detail.php:148
+msgid "Tags"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:442
+msgid "Tax ID / Registration No."
+msgstr ""
+
+#: Frontend/class-shortcodes.php:430
+msgid "Team Size"
+msgstr ""
+
+#: Frontend/Templates/single.php:375
+msgid "Tell us how you are connected to this business..."
+msgstr ""
+
+#. translators: %s: business name
+#: Domain/class-businessservice.php:851
+#, php-format
+msgid ""
+"The verification request for “%s” was not approved. You may submit a new "
+"request with additional documents."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:862
+msgid ""
+"They will receive an email with a link to accept. If they don't have an "
+"account, they'll be prompted to register first."
+msgstr ""
+
+#: Integration/class-ecosystem.php:141
+msgid "This Week"
+msgstr ""
+
+#: Frontend/Templates/single.php:295 Widgets/class-hourswidget.php:87
+msgid "This business is open around the clock."
+msgstr ""
+
+#: Domain/class-digestservice.php:184
+msgid ""
+"This is your daily summary. You are receiving it because you own a business "
+"listed in the directory."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2372
+msgid "This service is free — no payment required"
+msgstr ""
+
+#: Import/class-migrator.php:620
+msgid ""
+"This source is too large to snapshot for a background import. Increase your "
+"PHP memory limit or disable plugins that consume memory, then retry."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1007 Frontend/Templates/single.php:55
+#: Widgets/class-hourswidget.php:72
+msgid "Thursday"
+msgstr ""
+
+#: Widgets/class-hourswidget.php:130
+msgid "Title:"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:115
+msgid "Toggle list view"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2356
+msgid "Too many booking attempts. Please try again later."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1229
+msgid "Too many businesses created. Please try again later."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2044
+msgid "Too many claim requests. Please try again later."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2419
+msgid "Too many purchase attempts. Please try again later."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2150
+msgid "Too many requests. Please slow down."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:173 Frontend/class-ajaxhandler.php:206
+#: Frontend/class-ajaxhandler.php:341
+msgid "Too many requests. Please wait a moment."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:240
+msgid "Too many reviews. Please wait before submitting another."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2099
+msgid "Too many verification requests. Please try again later."
+msgstr ""
+
+#: Admin/Pages/class-analyticspage.php:130
+msgid "Top Businesses by Rating"
+msgstr ""
+
+#: Admin/Pages/class-analyticspage.php:115
+msgid "Top Businesses by Views"
+msgstr ""
+
+#: Admin/class-adminbusinessespage.php:33
+#: Frontend/Templates/service-detail.php:179 Frontend/Templates/single.php:836
+msgid "Total"
+msgstr ""
+
+#: Admin/Pages/class-analyticspage.php:56
+#: Admin/Pages/class-dashboardpage.php:44
+msgid "Total Businesses"
+msgstr ""
+
+#: Admin/Pages/class-analyticspage.php:64
+#: Admin/Pages/class-dashboardpage.php:56
+msgid "Total Reviews"
+msgstr ""
+
+#: Admin/Pages/class-analyticspage.php:60
+#: Admin/Pages/class-dashboardpage.php:60
+msgid "Total Views"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:955 Integration/class-ecosystem.php:138
+msgid "Total views"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2798
+msgid "Track the status of business listings you have claimed."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1007 Frontend/Templates/single.php:53
+#: Widgets/class-hourswidget.php:70
+msgid "Tuesday"
+msgstr ""
+
+#: Admin/class-admincontroller.php:326
+msgid "Unfeature"
+msgstr ""
+
+#: Frontend/class-publiccontroller.php:379
+msgid "Unfollow"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:790
+msgid "Unknown"
+msgstr ""
+
+#: Admin/Pages/class-claimspage.php:78
+#: Admin/Pages/class-verificationspage.php:77
+msgid "Unknown business"
+msgstr ""
+
+#. translators: %s: migration source identifier
+#: Import/class-migrator.php:194 Import/class-migrator.php:268
+#, php-format
+msgid "Unknown migration source: %s"
+msgstr ""
+
+#: zeko-business.php:442
+msgid "Update Category"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3173
+msgid "Update Product"
+msgstr ""
+
+#. translators: 1: business name. 2: new plan name
+#: Frontend/class-ajaxhandler.php:2322
+#, php-format
+msgid "Upgrade \"%1$s\" to %2$s"
+msgstr ""
+
+#. translators: %s: plan name
+#: Frontend/class-ajaxhandler.php:3226
+#, php-format
+msgid "Upgrade to %s"
+msgstr ""
+
+#: Frontend/class-publiccontroller.php:359
+msgid "Upvote"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:340
+msgid "Use My Location"
+msgstr ""
+
+#: zeko-business.php:396
+msgid "Use as cover image"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1865
+msgid "User is already a team member"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:844
+msgid "User must already have an account on this site."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1859
+msgid "User not found with that email"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1190 Frontend/class-ajaxhandler.php:1202
+msgid "Value / URL"
+msgstr ""
+
+#: Admin/Pages/class-verificationspage.php:45
+msgid "Verification Requests"
+msgstr ""
+
+#: Frontend/Templates/single.php:366 Frontend/Templates/single.php:395
+msgid "Verification method"
+msgstr ""
+
+#: Domain/class-businessservice.php:849
+msgid "Verification rejected"
+msgstr ""
+
+#: Privacy/class-gdpr.php:149
+msgid "Verification request"
+msgstr ""
+
+#: Integration/class-ecosystem.php:270
+msgid "Verification request rejected"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2138
+msgid "Verification request submitted."
+msgstr ""
+
+#: Admin/class-admincontroller.php:192 Frontend/class-ajaxhandler.php:1074
+#: Frontend/class-shortcodes.php:62 Frontend/class-shortcodes.php:648
+msgid "Verified"
+msgstr ""
+
+#: Frontend/Templates/single.php:387
+msgid ""
+"Verified businesses earn a trust badge and rank higher in search results."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1168
+msgid "Video"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:505
+msgid "View"
+msgstr ""
+
+#: Frontend/Templates/single.php:748
+msgid "View All Jobs"
+msgstr ""
+
+#: zeko-business.php:387
+msgid "View Business"
+msgstr ""
+
+#: zeko-business.php:388
+msgid "View Businesses"
+msgstr ""
+
+#: zeko-business.php:441
+msgid "View Category"
+msgstr ""
+
+#: Frontend/Templates/single.php:478
+msgid "View Details"
+msgstr ""
+
+#: Frontend/Templates/single.php:743
+msgid "View Job"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2773 Frontend/Templates/single.php:774
+msgid "View Question"
+msgstr ""
+
+#: Frontend/Templates/single.php:796
+msgid "View Request"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1171
+msgid "View Shop"
+msgstr ""
+
+#: Admin/class-adminbusinesstable.php:43 Admin/class-admincontroller.php:193
+#: Admin/Pages/class-analyticspage.php:85
+#: Admin/Pages/class-analyticspage.php:117 Frontend/class-ajaxhandler.php:452
+msgid "Views"
+msgstr ""
+
+#: Admin/Pages/class-analyticspage.php:70
+msgid "Views (Last 30 Days)"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:967
+msgid "Views — last 14 days"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1139 Frontend/class-ajaxhandler.php:1167
+#: Frontend/class-shortcodes.php:321 Frontend/Templates/single.php:256
+msgid "Website"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1007 Frontend/Templates/single.php:54
+#: Widgets/class-hourswidget.php:71
+msgid "Wednesday"
+msgstr ""
+
+#: zeko-business.php:670
+msgid "Welcome to Zeko Central"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1164 Frontend/class-shortcodes.php:325
+msgid "WhatsApp"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:82
+msgid "Within"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:426
+msgid "Year Founded"
+msgstr ""
+
+#: Frontend/Templates/single.php:347
+msgid ""
+"You already submitted a claim for this listing. It is awaiting review by our "
+"team."
+msgstr ""
+
+#. translators: %s: business name
+#: Domain/class-teamservice.php:379
+#, php-format
+msgid "You are no longer a team member of \"%s\"."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:224
+msgid "You are not following this business"
+msgstr ""
+
+#. translators: 1: team role. 2: business name
+#: Domain/class-teamservice.php:251
+#, php-format
+msgid "You are now a %1$s on \"%2$s\"."
+msgstr ""
+
+#: Domain/class-digestservice.php:183
+msgid ""
+"You can reply to any of these from the Questions area of your dashboard."
+msgstr ""
+
+#: Admin/Pages/class-demodatapage.php:23
+msgid "You do not have permission to manage demo data."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1062 Frontend/class-shortcodes.php:487
+#: Integration/class-ecosystem.php:126
+msgid "You don't have any businesses yet."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:301
+msgid "You have already reviewed this business"
+msgstr ""
+
+#. translators: 1: team role. 2: business name
+#: Domain/class-teamservice.php:100
+#, php-format
+msgid "You have been added as %1$s on \"%2$s\"."
+msgstr ""
+
+#: Integration/class-ecosystem.php:271
+msgid "You have been invited to manage a business"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2802
+msgid "You have not submitted any claims yet."
+msgstr ""
+
+#: Integration/class-ecosystem.php:267
+msgid "Your business claim has been approved"
+msgstr ""
+
+#: Integration/class-ecosystem.php:268
+msgid "Your business claim was rejected"
+msgstr ""
+
+#: Integration/class-ecosystem.php:263
+msgid "Your business has been approved"
+msgstr ""
+
+#: Integration/class-ecosystem.php:264
+msgid "Your business has been suspended"
+msgstr ""
+
+#: Domain/class-businessservice.php:330
+msgid "Your business is live"
+msgstr ""
+
+#: Domain/class-businessservice.php:364
+msgid "Your business was suspended"
+msgstr ""
+
+#. translators: %s: business name
+#: Domain/class-businessservice.php:735
+#, php-format
+msgid ""
+"Your claim on \"%s\" has been approved. You can now manage it from the "
+"business portal."
+msgstr ""
+
+#. translators: %s: business name
+#: Domain/class-businessservice.php:769
+#, php-format
+msgid "Your claim on “%s” was not approved."
+msgstr ""
+
+#: Domain/class-businessservice.php:917
+msgid "Your featured status is expiring"
+msgstr ""
+
+#: Domain/class-businessservice.php:357
+msgid "Your listing has been suspended."
+msgstr ""
+
+#: Frontend/Templates/single.php:354
+msgid ""
+"Your previous claim was not approved. You can submit a new one with more "
+"evidence."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:2074 Frontend/class-ajaxhandler.php:2129
+msgid "Your request could not be submitted."
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:296
+msgid "Your review could not be submitted."
+msgstr ""
+
+#: Domain/class-businessservice.php:936
+msgid "Your sponsored status is expiring"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:1253
+msgid "Your submission could not be created."
+msgstr ""
+
+#: Privacy/class-gdpr.php:38 Privacy/class-gdpr.php:51
+#: Privacy/class-gdpr.php:315
+msgid "Zeko Business Directory"
+msgstr ""
+
+#: Widgets/class-hourswidget.php:29
+msgid "Zeko Business Hours"
+msgstr ""
+
+#: zeko-business.php:672
+msgid ""
+"Zeko Central Café & Bistro has been serving hand-roasted coffee and seasonal "
+"California cuisine in the heart of San Francisco since 2016. Our beans are "
+"sourced directly from small farms in Ethiopia and Colombia and roasted "
+"weekly in-house."
+msgstr ""
+
+#. translators: %d: number of pending reviews
+#: Domain/class-cron.php:100
+#, php-format
+msgid "[%1$s] %2$d reviews awaiting moderation"
+msgstr ""
+
+#. translators: %1$d: number of new items, %2$s: site name
+#: Domain/class-digestservice.php:129
+#, php-format
+msgid "[%2$s] %1$d new question%3$s for your business"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3117
+msgid "e.g. PROD-001"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:3042
+msgid "e.g. Premium Widget, Service Package"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:634
+msgid "e.g. Website Design, Plumbing Repair"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:705
+msgid "e.g. per session, materials included"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:174 Frontend/class-shortcodes.php:212
+msgid "log in"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:85 Frontend/class-shortcodes.php:86
+#: Frontend/class-shortcodes.php:87 Frontend/class-shortcodes.php:88
+#: Frontend/class-shortcodes.php:89
+msgid "mi"
+msgstr ""
+
+#. translators: %s: formatted date
+#: Integration/class-ecosystem.php:190
+#, php-format
+msgid "on %s"
+msgstr ""
+
+#: Frontend/Templates/service-detail.php:81 Frontend/Templates/single.php:453
+msgid "starting"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:599
+msgid "tag1, tag2"
+msgstr ""
+
+#: Frontend/class-ajaxhandler.php:701
+msgid "tag1, tag2, tag3"
+msgstr ""
+
+#: Frontend/class-shortcodes.php:499
+msgid "views"
+msgstr ""
+
+#. translators: %s: business name
+#: Domain/class-businessservice.php:332
+#, php-format
+msgid "“%s” has been approved and is now listed in the directory."
+msgstr ""
+
+#. translators: %s: business name
+#: Domain/class-businessservice.php:817
+#, php-format
+msgid "“%s” is now verified. The verified badge is visible on your listing."
+msgstr ""
+
