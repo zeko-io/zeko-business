@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zeko-business 1.0.0\n"
 "Report-Msgid-Bugs-To: https://zeko.io\n"
-"POT-Creation-Date: 2026-09-25 08:10+00:00\n"
+"POT-Creation-Date: 2026-09-27 15:06+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -193,7 +193,7 @@ msgstr ""
 #: Admin/class-adminbusinessespage.php:37
 #: Admin/Pages/class-dashboardpage.php:48 Frontend/class-ajaxhandler.php:534
 #: Frontend/class-ajaxhandler.php:793 Frontend/class-ajaxhandler.php:3003
-#: Frontend/class-ajaxhandler.php:3159 Frontend/class-publiccontroller.php:382
+#: Frontend/class-ajaxhandler.php:3159 Frontend/class-publiccontroller.php:380
 #: Frontend/class-shortcodes.php:61
 msgid "Active"
 msgstr ""
@@ -211,15 +211,15 @@ msgstr ""
 msgid "Add Images"
 msgstr ""
 
-#: zeko-business.php:383
+#: zeko-business.php:384
 msgid "Add New"
 msgstr ""
 
-#: zeko-business.php:384
+#: zeko-business.php:385
 msgid "Add New Business"
 msgstr ""
 
-#: zeko-business.php:443
+#: zeko-business.php:444
 msgid "Add New Category"
 msgstr ""
 
@@ -244,7 +244,7 @@ msgstr ""
 msgid "Add Service"
 msgstr ""
 
-#: Integration/class-ecosystem.php:236 zeko-business.php:534
+#: Integration/class-ecosystem.php:236 zeko-business.php:535
 msgid "Add Your Business"
 msgstr ""
 
@@ -264,11 +264,11 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: zeko-business.php:382
+#: zeko-business.php:383
 msgid "All Businesses"
 msgstr ""
 
-#: zeko-business.php:439
+#: zeko-business.php:440
 msgid "All Categories"
 msgstr ""
 
@@ -288,7 +288,7 @@ msgstr ""
 msgid "Already following or unavailable"
 msgstr ""
 
-#: Frontend/class-publiccontroller.php:380
+#: Frontend/class-publiccontroller.php:378
 msgid "An error occurred."
 msgstr ""
 
@@ -320,7 +320,7 @@ msgstr ""
 msgid "Approved"
 msgstr ""
 
-#: Frontend/class-publiccontroller.php:381
+#: Frontend/class-publiccontroller.php:379
 msgid "Are you sure you want to delete this?"
 msgstr ""
 
@@ -376,7 +376,7 @@ msgstr ""
 #: Admin/Pages/class-analyticspage.php:132 Admin/Pages/class-claimspage.php:59
 #: Admin/Pages/class-verificationspage.php:58
 #: Frontend/Templates/service-detail.php:175 Frontend/Templates/single.php:832
-#: zeko-business.php:380
+#: zeko-business.php:381
 msgid "Business"
 msgstr ""
 
@@ -396,15 +396,15 @@ msgstr ""
 msgid "Business Analytics"
 msgstr ""
 
-#: zeko-business.php:392
+#: zeko-business.php:393
 msgid "Business Archives"
 msgstr ""
 
-#: zeko-business.php:436
+#: zeko-business.php:437
 msgid "Business Categories"
 msgstr ""
 
-#: zeko-business.php:437
+#: zeko-business.php:438
 msgid "Business Category"
 msgstr ""
 
@@ -413,7 +413,7 @@ msgid "Business Claims"
 msgstr ""
 
 #: Admin/class-adminbusinessespage.php:24 Frontend/class-shortcodes.php:52
-#: zeko-business.php:381 zeko-business.php:529
+#: zeko-business.php:382 zeko-business.php:530
 msgid "Business Directory"
 msgstr ""
 
@@ -456,7 +456,7 @@ msgid "Business Name"
 msgstr ""
 
 #: Frontend/Templates/business-portal.php:128
-#: Integration/class-ecosystem.php:244 zeko-business.php:544
+#: Integration/class-ecosystem.php:244 zeko-business.php:545
 msgid "Business Portal"
 msgstr ""
 
@@ -521,7 +521,7 @@ msgstr ""
 msgid "Business phone"
 msgstr ""
 
-#: zeko-business.php:398
+#: zeko-business.php:399
 msgid "Business profiles in the Zeko directory."
 msgstr ""
 
@@ -539,7 +539,7 @@ msgstr ""
 
 #: Integration/class-ecosystem.php:111 Integration/class-ecosystem.php:227
 #: Integration/class-ecosystem.php:323 Integration/class-ecosystem.php:361
-#: zeko-business.php:379
+#: zeko-business.php:380
 msgid "Businesses"
 msgstr ""
 
@@ -577,7 +577,7 @@ msgstr ""
 msgid "Cancel Edit"
 msgstr ""
 
-#: Frontend/class-shortcodes.php:264 zeko-business.php:438
+#: Frontend/class-shortcodes.php:264 zeko-business.php:439
 msgid "Categories"
 msgstr ""
 
@@ -680,7 +680,7 @@ msgstr ""
 msgid "Contact"
 msgstr ""
 
-#: Frontend/class-publiccontroller.php:385
+#: Frontend/class-publiccontroller.php:383
 msgid "Copied to all days."
 msgstr ""
 
@@ -720,7 +720,7 @@ msgstr ""
 msgid "Courses"
 msgstr ""
 
-#: zeko-business.php:393
+#: zeko-business.php:394
 msgid "Cover Image"
 msgstr ""
 
@@ -853,7 +853,7 @@ msgstr ""
 msgid "Downloadable"
 msgstr ""
 
-#: Frontend/class-publiccontroller.php:360
+#: Frontend/class-publiccontroller.php:358
 msgid "Downvote"
 msgstr ""
 
@@ -870,11 +870,11 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: zeko-business.php:385
+#: zeko-business.php:386
 msgid "Edit Business"
 msgstr ""
 
-#: zeko-business.php:440
+#: zeko-business.php:441
 msgid "Edit Category"
 msgstr ""
 
@@ -963,7 +963,7 @@ msgstr ""
 msgid "Fixed Price"
 msgstr ""
 
-#: Frontend/class-publiccontroller.php:378
+#: Frontend/class-publiccontroller.php:376
 msgid "Follow"
 msgstr ""
 
@@ -1030,7 +1030,7 @@ msgstr ""
 msgid "Half day"
 msgstr ""
 
-#: zeko-business.php:667
+#: zeko-business.php:670
 msgid ""
 "Hand-roasted coffee, seasonal Californian plates and a sunny garden patio in "
 "the heart of San Francisco."
@@ -1108,7 +1108,7 @@ msgid "In Stock (%d)"
 msgstr ""
 
 #: Frontend/class-ajaxhandler.php:534 Frontend/class-ajaxhandler.php:3005
-#: Frontend/class-ajaxhandler.php:3160 Frontend/class-publiccontroller.php:383
+#: Frontend/class-ajaxhandler.php:3160 Frontend/class-publiccontroller.php:381
 msgid "Inactive"
 msgstr ""
 
@@ -1269,7 +1269,7 @@ msgstr ""
 msgid "Leave a Review"
 msgstr ""
 
-#: Frontend/class-publiccontroller.php:386
+#: Frontend/class-publiccontroller.php:384
 msgid "Link copied to clipboard."
 msgstr ""
 
@@ -1363,7 +1363,7 @@ msgstr ""
 #: Frontend/class-ajaxhandler.php:1059 Frontend/class-shortcodes.php:484
 #: Frontend/Templates/business-portal.php:49
 #: Integration/class-ecosystem.php:132 Integration/class-ecosystem.php:240
-#: zeko-business.php:539
+#: zeko-business.php:540
 msgid "My Businesses"
 msgstr ""
 
@@ -1385,11 +1385,11 @@ msgstr ""
 msgid "Near"
 msgstr ""
 
-#: zeko-business.php:386
+#: zeko-business.php:387
 msgid "New Business"
 msgstr ""
 
-#: zeko-business.php:444
+#: zeko-business.php:445
 msgid "New Category Name"
 msgstr ""
 
@@ -1446,12 +1446,12 @@ msgstr ""
 msgid "No %s data was detected on this site."
 msgstr ""
 
-#: zeko-business.php:391
+#: zeko-business.php:392
 msgid "No businesses found in Trash."
 msgstr ""
 
 #: Frontend/class-ajaxhandler.php:2164 Frontend/class-shortcodes.php:686
-#: zeko-business.php:390
+#: zeko-business.php:391
 msgid "No businesses found."
 msgstr ""
 
@@ -1459,7 +1459,7 @@ msgstr ""
 msgid "No businesses yet."
 msgstr ""
 
-#: zeko-business.php:448
+#: zeko-business.php:449
 msgid "No categories found."
 msgstr ""
 
@@ -1656,11 +1656,11 @@ msgstr ""
 msgid "Owner Reply"
 msgstr ""
 
-#: zeko-business.php:445
+#: zeko-business.php:446
 msgid "Parent Category"
 msgstr ""
 
-#: zeko-business.php:446
+#: zeko-business.php:447
 msgid "Parent Category:"
 msgstr ""
 
@@ -1785,7 +1785,7 @@ msgstr ""
 msgid "Please log in to view your businesses."
 msgstr ""
 
-#: Frontend/class-publiccontroller.php:362
+#: Frontend/class-publiccontroller.php:360
 msgid "Please login to vote"
 msgstr ""
 
@@ -1992,7 +1992,7 @@ msgstr ""
 msgid "Remove all generated demo data? This cannot be undone."
 msgstr ""
 
-#: zeko-business.php:395
+#: zeko-business.php:396
 msgid "Remove cover image"
 msgstr ""
 
@@ -2108,11 +2108,11 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: zeko-business.php:389
+#: zeko-business.php:390
 msgid "Search Businesses"
 msgstr ""
 
-#: zeko-business.php:447
+#: zeko-business.php:448
 msgid "Search Categories"
 msgstr ""
 
@@ -2172,7 +2172,7 @@ msgstr ""
 msgid "Select category..."
 msgstr ""
 
-#: Frontend/class-publiccontroller.php:384
+#: Frontend/class-publiccontroller.php:382
 msgid "Select images"
 msgstr ""
 
@@ -2239,7 +2239,7 @@ msgstr ""
 msgid "Services"
 msgstr ""
 
-#: zeko-business.php:394
+#: zeko-business.php:395
 msgid "Set cover image"
 msgstr ""
 
@@ -2393,7 +2393,7 @@ msgstr ""
 msgid "Stock: %d"
 msgstr ""
 
-#: zeko-business.php:676
+#: zeko-business.php:679
 msgid ""
 "Stop by for a morning flat white, stay for lunch on our garden patio, and "
 "join us on Friday evenings for live acoustic sets and local craft beer."
@@ -2407,7 +2407,7 @@ msgstr ""
 msgid "Street Address"
 msgstr ""
 
-#: Frontend/class-publiccontroller.php:361
+#: Frontend/class-publiccontroller.php:359
 msgid "Submit Answer"
 msgstr ""
 
@@ -2494,7 +2494,7 @@ msgstr ""
 msgid "This service is free — no payment required"
 msgstr ""
 
-#: Import/class-migrator.php:620
+#: Import/class-migrator.php:629
 msgid ""
 "This source is too large to snapshot for a background import. Increase your "
 "PHP memory limit or disable plugins that consume memory, then retry."
@@ -2591,7 +2591,7 @@ msgstr ""
 msgid "Unfeature"
 msgstr ""
 
-#: Frontend/class-publiccontroller.php:379
+#: Frontend/class-publiccontroller.php:377
 msgid "Unfollow"
 msgstr ""
 
@@ -2610,7 +2610,7 @@ msgstr ""
 msgid "Unknown migration source: %s"
 msgstr ""
 
-#: zeko-business.php:442
+#: zeko-business.php:443
 msgid "Update Category"
 msgstr ""
 
@@ -2630,7 +2630,7 @@ msgstr ""
 msgid "Upgrade to %s"
 msgstr ""
 
-#: Frontend/class-publiccontroller.php:359
+#: Frontend/class-publiccontroller.php:357
 msgid "Upvote"
 msgstr ""
 
@@ -2638,7 +2638,7 @@ msgstr ""
 msgid "Use My Location"
 msgstr ""
 
-#: zeko-business.php:396
+#: zeko-business.php:397
 msgid "Use as cover image"
 msgstr ""
 
@@ -2704,15 +2704,15 @@ msgstr ""
 msgid "View All Jobs"
 msgstr ""
 
-#: zeko-business.php:387
+#: zeko-business.php:388
 msgid "View Business"
 msgstr ""
 
-#: zeko-business.php:388
+#: zeko-business.php:389
 msgid "View Businesses"
 msgstr ""
 
-#: zeko-business.php:441
+#: zeko-business.php:442
 msgid "View Category"
 msgstr ""
 
@@ -2760,7 +2760,7 @@ msgstr ""
 msgid "Wednesday"
 msgstr ""
 
-#: zeko-business.php:670
+#: zeko-business.php:673
 msgid "Welcome to Zeko Central"
 msgstr ""
 
@@ -2907,7 +2907,7 @@ msgstr ""
 msgid "Zeko Business Hours"
 msgstr ""
 
-#: zeko-business.php:672
+#: zeko-business.php:675
 msgid ""
 "Zeko Central Café & Bistro has been serving hand-roasted coffee and seasonal "
 "California cuisine in the heart of San Francisco since 2016. Our beans are "
